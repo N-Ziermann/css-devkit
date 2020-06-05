@@ -1,3 +1,5 @@
+/* Allignment */
+
 .same_height_container{
   display: flex;
 }
@@ -21,6 +23,25 @@
   align-items:center;
 }
 
+/* Basic styling */
+
 .shadow{
   box-shadow: 3px 3px black;
+}
+
+/* Scrollbars */
+
+.modern_scrollbar::-webkit-scrollbar{
+	width: 0.6em;
+}
+
+.modern_scrollbar::-webkit-scrollbar-track{
+	background-color: rgba(1,1,1,0);
+  border-radius: 5px;
+}
+
+.modern_scrollbar::-webkit-scrollbar-thumb{
+  border: solid 5px var(--primary-color);
+  border-radius: 5px;
+	background-color: rgba(0,0,0,0.2);
 }
