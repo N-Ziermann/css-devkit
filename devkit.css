@@ -23,6 +23,12 @@
   align-items:center;
 }
 
+/*Media Querrys*/
+@media (max-width:480px){
+  .invisible_on_phone{
+    visibility: hidden;
+  }
+}
 /* Basic styling */
 
 .shadow{
